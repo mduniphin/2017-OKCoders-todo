@@ -3,11 +3,11 @@ const prompt = require('prompt');
 	const todoList = {
 	  tasks: ['Empty'],
 	  begin: function(){
-	  	console.log('Choose an number:\n (1) Add task \n (2) Mark complete \n (3) View todo list \n (4) Quit');
+	  	console.log('\nChoose an number:\n\n (1) Add task \n (2) Mark complete \n (3) View todo list \n (4) Quit');
 	  	prompt.get('option', function(err,result){
 	  		if (err) todoList.quitTasks();
 	  		else {
-	  			switch(result.option.charAt(0)){
+	  			switch(result.option){
 	  				case "1":
 	  					todoList.addTask();
 	  					break;
@@ -21,7 +21,7 @@ const prompt = require('prompt');
 	  					todoList.quitTasks('Goodbye');
 	  					break;
 	  				default:
-	  					console.log('Type a number to get started.');
+	  					console.log('\nType a number to get started.\n');
 	  					todoList.begin();
 	  					break;
 	  			}
