@@ -1,0 +1,26 @@
+{
+  "name": "2017-okcoders-todo",
+  "version": "0.0.1",
+  "description": "todo list using prompt",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mduniphin/2017-OKCoders-todo.git"
+  },
+  "keywords": [
+    "OKCoders",
+    "todo"
+  ],
+  "author": "Maxx Duniphin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mduniphin/2017-OKCoders-todo/issues"
+  },
+  "homepage": "https://github.com/mduniphin/2017-OKCoders-todo#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
